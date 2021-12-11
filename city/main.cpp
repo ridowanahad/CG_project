@@ -51,55 +51,6 @@ void circle(GLfloat rx,GLfloat ry,GLfloat cx,GLfloat cy)//radius_x,radius_y,cert
 }
 
 
-void lamp() {
-    glPushMatrix();
-	glTranslatef(0.0f, 10.0f, 0.0f);
-	glRotatef(0, 0.0f, 0.0f, -1.0f);
-
-glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Set background color to black and opaque
-glClear(GL_COLOR_BUFFER_BIT); // Clear the color buffer (background)
-glLineWidth(0.5);
-glBegin(GL_POLYGON);// Draw a Red 1x1 Square centered at origin
-//Lamp Light log
-glBegin(GL_LINES);
-
-
-glColor3f(1.0f, 0.502f, 0.502f);
-
-glVertex2f(-12.2 ,-15);
-glVertex2f(-12, -15);
-glVertex2f(-12 ,0);
-glVertex2f(-12.2 ,0);
-
-
-
-
-
-glEnd();
-glPopMatrix();
-
-
-
-////Lamp Light case
-//glBegin(GL_POLYGON);
-//
-//glColor3f(0.863f, 0.863f, 0.863f);
-//
-//
-//glVertex2f(-0.9f,-0.2f);
-//
-//glVertex2f(-0.9f,-0.25f);
-//
-//glVertex2f(-0.74f,-0.25f);
-//
-//glVertex2f(-0.74,-0.2f);
-//
-//glEnd();
-
-
-
-glFlush(); // Render now
-}
 //Car1
 
     void car()
@@ -303,6 +254,76 @@ void boat(){
 void boat2(){
     //Boat2
     glTranslated(40,0,0);
+    glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-5 ,-30);
+   glVertex2f(10 ,-30);
+   glVertex2f(15 ,-25);
+   glVertex2f(-5 ,-25);
+   glEnd();
+
+   glColor3f( 0.0 ,0.0, 1.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-3 ,-25);
+   glVertex2f(11 ,-25);
+   glVertex2f(9 ,-22);
+   glVertex2f(-3 ,-22);
+   glEnd();
+
+   glColor3f( 0.0 ,1.0, 1.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-1.5 ,-24.5);
+   glVertex2f(0.5 ,-24.5);
+   glVertex2f(0.5 ,-22.5);
+   glVertex2f(-1.5 ,-22.5);
+   glEnd();
+
+   glColor3f( 1.0 ,1.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(2.5 ,-24.5);
+   glVertex2f(4.5 ,-24.5);
+   glVertex2f(4.5 ,-22.5);
+   glVertex2f(2.5 ,-22.5);
+   glEnd();
+
+   glColor3f( 0.0 ,1.0, 1.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(6.5 ,-24.5);
+   glVertex2f(8.5 ,-24.5);
+   glVertex2f(8.5 ,-22.5);
+   glVertex2f(6.5 ,-22.5);
+   glEnd();
+
+   glColor3f( 0.0 ,1.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-1.5 ,-22);
+   glVertex2f(7.5 ,-22);
+   glVertex2f(6 ,-19);
+   glVertex2f(-1.5 ,-19);
+   glEnd();
+
+   glColor3f( 1.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-0.5 ,-21.5);
+   glVertex2f(1.5 ,-21.5);
+   glVertex2f(1.5 ,-19.5);
+   glVertex2f(-0.5 ,-19.5);
+   glEnd();
+
+   glColor3f( 1.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(3 ,-21.5);
+   glVertex2f(5 ,-21.5);
+   glVertex2f(5 ,-19.5);
+   glVertex2f(3 ,-19.5);
+   glEnd();
+
+
+}
+
+void boat3(){
+    //Boat2
+    glTranslated(70,5,0);
     glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
    glVertex2f(-5 ,-30);
@@ -679,7 +700,9 @@ void ground(){
 
 void river(){
 //river
-
+	glPushMatrix();
+	glTranslatef(0.0f, 10.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
 
 	 glColor3f(0.0,0.5,1.0);
 	glBegin(GL_POLYGON);
@@ -969,6 +992,7 @@ glPushMatrix();
    glVertex2f(9.85 ,5);
    glEnd();
 }
+
 
 void House1(){
 
@@ -1728,6 +1752,7 @@ void House7(){
     glPopMatrix();
 }
 
+
 void Road1(){
 
 //Road1
@@ -1962,6 +1987,14 @@ void Day()
        glPopMatrix();
    }
 
+      boat_Move();
+   for(int i=0; i<1; i++)
+   {
+       glPushMatrix();
+       glTranslatef(boat_move+i,0,0);
+       boat3();
+       glPopMatrix();
+   }
 glutSwapBuffers();
 
 
@@ -1979,22 +2012,20 @@ glClear(GL_COLOR_BUFFER_BIT);
 	glEnd();
 
 
-//	//Ground
+	//Ground
 	ground();
-
- lamp();
 
     //river
     river();
 
-//    //Back Wall
-//    back_wall();   //back grass
+    //Back Wall
+    back_wall();
 
     //Tree1
-    //Tree1();
+    Tree1();
 
     //Tree2
-    //Tree2();
+    Tree2();
 
     //House1
     House1();
@@ -2089,10 +2120,10 @@ glClear(GL_COLOR_BUFFER_BIT);
     //House7
     House7();
 
-//    //Front Wall
-//    Front_Wall(); //Front grass
+    //Front Wall
+    Front_Wall();
 
-//    //Road2
+    //Road2
     Road2();
 
 
@@ -2126,15 +2157,14 @@ glClear(GL_COLOR_BUFFER_BIT);
        glPopMatrix();
    }
 
-   boat_Move();
+    boat_Move();
    for(int i=0; i<1; i++)
    {
        glPushMatrix();
        glTranslatef(boat_move+i,0,0);
-       boat();
+       boat3();
        glPopMatrix();
    }
-
 
 glutSwapBuffers();
 
