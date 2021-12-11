@@ -993,30 +993,276 @@ glPushMatrix();
    glEnd();
 }
 
+void lamp() {
+
+/////Stand
+  glColor3f(0.502f, 0.502f, 0.502f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+
+
+   glPushMatrix();
+	glTranslatef(19.0f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+ //  glColor3f( 1,1, 1);
+    glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+   glPushMatrix();
+	glTranslatef(36.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+  // glColor3f( 1,1, 1);
+    glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+
+ glPushMatrix();
+	glTranslatef(51.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   //glColor3f( 1,1, 1);
+  glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+////
+ glPushMatrix();
+	glTranslatef(62.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   //glColor3f( 1,1, 1);
+  glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+////
+ glPushMatrix();
+	glTranslatef(72.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   //glColor3f( 1,1, 1);
+  glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+////
+ glPushMatrix();
+	glTranslatef(88.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   //glColor3f( 1,1, 1);
+  glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+////
+  glPushMatrix();
+	glTranslatef(-16.0f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   //glColor3f( 1,1, 1);
+    glBegin(GL_POLYGON);
+
+     glVertex2f(-12.2 ,-17.6);
+       glVertex2f(-11.2 ,-17.7);
+         glVertex2f(-11.2 ,-8);
+           glVertex2f(-12.2 ,-8);
+   glEnd();
+glPopMatrix();
+
+
+///// Light
+
+
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+
+/////
+
+  glPushMatrix();
+	glTranslatef(19.0f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+//////
+ glPushMatrix();
+	glTranslatef(36.6f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+////
+ glPushMatrix();
+	glTranslatef(51.6f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+
+////
+ glPushMatrix();
+	glTranslatef(62.3f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+
+////
+ glPushMatrix();
+	glTranslatef(72.3f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+
+////
+ glPushMatrix();
+	glTranslatef(88.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+/////
+
+  glPushMatrix();
+	glTranslatef(-16.0f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+
+   glColor3f(0.863f, 0.863f, 0.863f);
+   glBegin(GL_POLYGON);
+
+     glVertex2f(-11.7 ,-10);
+      glVertex2f(-10.7 ,-11);
+
+       glVertex2f(-9.7 ,-10);
+         glVertex2f(-9.7 ,-8.5);
+           glVertex2f(-11.7 ,-8.5);
+   glEnd();
+glPopMatrix();
+}
 
 void House1(){
 
 //House1
 
-   glColor3f( 0.7 ,0.0, 0.0);  //middle house right side
+   glColor3f( 0.7 ,0.2, 0.0);  //middle house right side
    glBegin(GL_POLYGON);
    glVertex2f(-3.2 ,-15);
    glVertex2f(6.8 ,-15);
-   glVertex2f(6.8 ,6);
-   glVertex2f(3.8 ,6);      //extra
-   glVertex2f(3.8 ,7.5);   //extra
-   glVertex2f(0.5 ,7.5);   //extra
-   glVertex2f(0.5 ,6);     //extra
-   glVertex2f(0.5 ,6);    //extra
-   glVertex2f(-3.2 ,6);
+   glVertex2f(6.8 ,8);
+   glVertex2f(-3.2 ,8);
    glEnd();
 
    glColor3f( 9.9 ,9.5, 0.0);
    glBegin(GL_POLYGON); // middle house left mirror body
-   glVertex2f(-2.7 ,-6);
-   glVertex2f(0.8 ,-6);
-   glVertex2f(0.8 ,4.3);
-   glVertex2f(-2.7 ,4.3);
+
+   glVertex2f(-2.7 ,-8);
+   glVertex2f(0.8 ,-8);
+   glVertex2f(0.8 ,6.3);
+   glVertex2f(-2.7 ,6.3);
    glEnd();
 
 //   glColor3f( 0.0 ,0.0, 0.0);
@@ -1027,10 +1273,10 @@ void House1(){
 //   glVertex2f(-1 ,4.3);
 //   glEnd();
 
-   glColor3f( 1.0 ,0.0, 0.0);
+   glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(-2.7 ,-0.7); //middle house left mirror middle fat line[X axis]
-   glVertex2f(0.8 ,-0.7);
+   glVertex2f(-2.7 ,-0.2); //middle house left mirror middle fat line[X axis]
+   glVertex2f(0.8 ,-0.2);
    glVertex2f(0.8 ,0);
    glVertex2f(-2.7 ,0);
    glEnd();
@@ -1045,20 +1291,20 @@ void House1(){
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(-2.7 ,1.70);     //middle house left mirror upper middle line[x axis]
-   glVertex2f(0.8 ,1.70);
-   glVertex2f(0.8 ,1.85);
-   glVertex2f(-2.7 ,1.85);
+   glVertex2f(-2.7 ,2.70);     //middle house left mirror upper middle line[x axis]
+   glVertex2f(0.8 ,2.70);
+   glVertex2f(0.8 ,2.85);
+   glVertex2f(-2.7 ,2.85);
    glEnd();
 
 
 
-   glColor3f( 9.9 ,9.5, 0.0);
+   glColor3f( 1 ,5, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(3 ,-6);
-   glVertex2f(6.3 ,-6);           //middle house right mirror body
-   glVertex2f(6.3 ,4.3);
-   glVertex2f(3 ,4.3);
+   glVertex2f(3 ,-8);
+   glVertex2f(6.3 ,-8);           //middle house right mirror body
+   glVertex2f(6.3 ,6.3);
+   glVertex2f(3 ,6.3);
    glEnd();
 
 //   glColor3f( 0.0 ,0.0, 0.0);
@@ -1069,20 +1315,20 @@ void House1(){
 //   glVertex2f(4.65 ,4.3);
 //   glEnd();
 
-   glColor3f( 1.0 ,0.0, 0.0);
+   glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(3 ,-0.7);
-   glVertex2f(6.3 ,-0.7);     // middle house right mirror middle fat line [x axis]
+   glVertex2f(3 ,-0.2);
+   glVertex2f(6.3 ,-0.2);     // middle house right mirror middle fat line [x axis]
    glVertex2f(6.3 ,0);
    glVertex2f(3 ,0);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(3 ,1.70);
-   glVertex2f(6.3 ,1.70);    // middle house right mirror middle line upper one[x axis]
-   glVertex2f(6.3 ,1.85);
-   glVertex2f(3 ,1.85);
+   glVertex2f(3 ,2.70);
+   glVertex2f(6.3 ,2.70);    // middle house right mirror middle line upper one[x axis]
+   glVertex2f(6.3 ,2.85);
+   glVertex2f(3 ,2.85);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
@@ -1098,10 +1344,35 @@ void House1(){
 
    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
-   glVertex2f(0.3 ,-15);
-   glVertex2f(3.7 ,-15);
-   glVertex2f(3.7 ,-7);
-   glVertex2f(0.3 ,-7);
+   glVertex2f(-0.6 ,-15);
+   glVertex2f(5,-15);
+   glVertex2f(5 ,-9);
+   glVertex2f(-0.6 ,-9);
+   glEnd();
+   ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-0.5 ,-15);
+   glVertex2f(0.9 ,-15);        //line [y axis]
+   glVertex2f(0.9 ,-9);
+   glVertex2f(-0.5,-9);
+   glEnd();
+   ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(2 ,-15);
+   glVertex2f(2.3 ,-15);        //line [y axis]
+   glVertex2f(2.3 ,-9);
+   glVertex2f(2,-9);
+   glEnd();
+
+      ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f( 3.5,-15);
+   glVertex2f(4.9 ,-15);        //line [y axis]
+   glVertex2f(4.9 ,-9);
+   glVertex2f(3.5,-9);
    glEnd();
 }
 
@@ -1214,7 +1485,7 @@ void House3(){
 
 //House3
 
-   glColor3f( 0.2 ,0.0, 0.2);
+   glColor3f( 1.0 ,1.9, 0.1);
    glBegin(GL_POLYGON);
    glVertex2f(14.3 ,-15);
    glVertex2f(24.3 ,-15);
@@ -1321,107 +1592,134 @@ void House4(){
 
 
     glPushMatrix();
-	glTranslatef(15.0f, 0.0f, 0.0f);
-	//glRotatef(0, 0.0f, 0.0f, -1.0f);
+	glTranslatef(32.5f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
 
-	glColor3f( 3.7 ,0.0, 0.0);
+	  glColor3f( 0.7 ,0.2, 1.0);  //middle house right side
    glBegin(GL_POLYGON);
-   glVertex2f(14.3 ,-15);
-   glVertex2f(24.3 ,-15);
-   glVertex2f(24.3 ,5);
-   glVertex2f(14.3 ,5);
+   glVertex2f(-3.2 ,-15);
+   glVertex2f(6.8 ,-15);
+   glVertex2f(6.8 ,8);
+   glVertex2f(-3.2 ,8);
    glEnd();
 
-   glColor3f( 1.0 ,1.0, 1.0);
+   glColor3f( 9.9 ,9.5, 0.0);
+   glBegin(GL_POLYGON); // middle house left mirror body
+
+   glVertex2f(-2.7 ,-8);
+   glVertex2f(0.8 ,-8);
+   glVertex2f(0.8 ,6.3);
+   glVertex2f(-2.7 ,6.3);
+   glEnd();
+
+//   glColor3f( 0.0 ,0.0, 0.0);
+//   glBegin(GL_POLYGON); // middle house left mirror middle line[Y axis]
+//   glVertex2f(-1 ,-6);
+//   glVertex2f(-0.90 ,-6);
+//   glVertex2f(-0.90 ,4.3);
+//   glVertex2f(-1 ,4.3);
+//   glEnd();
+
+   glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,-6);
-   glVertex2f(18.3 ,-6);
-   glVertex2f(18.3 ,4.3);
-   glVertex2f(14.8 ,4.3);
+   glVertex2f(-2.7 ,-0.2); //middle house left mirror middle fat line[X axis]
+   glVertex2f(0.8 ,-0.2);
+   glVertex2f(0.8 ,0);
+   glVertex2f(-2.7 ,0);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(16.5 ,-6);
-   glVertex2f(16.6 ,-6);
-   glVertex2f(16.6 ,4.3);
-   glVertex2f(16.5 ,4.3);
-   glEnd();
-
-   glColor3f( 1.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,-0.7);
-   glVertex2f(18.3 ,-0.7);
-   glVertex2f(18.3 ,0);
-   glVertex2f(14.8 ,0);
+   glVertex2f(-2.7 ,-3.35);  //middle house left mirror down middle line[x axis]
+   glVertex2f(0.8 ,-3.35);
+   glVertex2f(0.8 ,-3.45);
+   glVertex2f(-2.7 ,-3.45);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,-3.35);
-   glVertex2f(18.3 ,-3.35);
-   glVertex2f(18.3 ,-3.45);
-   glVertex2f(14.8 ,-3.45);
+   glVertex2f(-2.7 ,2.70);     //middle house left mirror upper middle line[x axis]
+   glVertex2f(0.8 ,2.70);
+   glVertex2f(0.8 ,2.85);
+   glVertex2f(-2.7 ,2.85);
+   glEnd();
+
+
+
+   glColor3f( 1 ,5, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(3 ,-8);
+   glVertex2f(6.3 ,-8);           //middle house right mirror body
+   glVertex2f(6.3 ,6.3);
+   glVertex2f(3 ,6.3);
+   glEnd();
+
+//   glColor3f( 0.0 ,0.0, 0.0);
+//   glBegin(GL_POLYGON);
+//   glVertex2f(4.65 ,-6);
+//   glVertex2f(4.72 ,-6);        //middle house right mirror middle line down side [y axis]
+//   glVertex2f(4.72 ,4.3);
+//   glVertex2f(4.65 ,4.3);
+//   glEnd();
+
+   glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(3 ,-0.2);
+   glVertex2f(6.3 ,-0.2);     // middle house right mirror middle fat line [x axis]
+   glVertex2f(6.3 ,0);
+   glVertex2f(3 ,0);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,1.75);
-   glVertex2f(18.3 ,1.75);
-   glVertex2f(18.3 ,1.95);
-   glVertex2f(14.8 ,1.95);
-   glEnd();
-
-
-
-   glColor3f( 1.0 ,1.0, 1.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,-6);
-   glVertex2f(23.8 ,-6);
-   glVertex2f(23.8 ,4.3);
-   glVertex2f(20.5 ,4.3);
+   glVertex2f(3 ,2.70);
+   glVertex2f(6.3 ,2.70);    // middle house right mirror middle line upper one[x axis]
+   glVertex2f(6.3 ,2.85);
+   glVertex2f(3 ,2.85);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(22.15 ,-6);
-   glVertex2f(22.22 ,-6);
-   glVertex2f(22.22 ,4.3);
-   glVertex2f(22.15 ,4.3);
-   glEnd();
-
-   glColor3f( 1.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,-0.7);
-   glVertex2f(23.8 ,-0.7);
-   glVertex2f(23.8 ,0);
-   glVertex2f(20.5 ,0);
-   glEnd();
-
-   glColor3f( 0.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,1.75);
-   glVertex2f(23.8 ,1.75);
-   glVertex2f(23.8 ,1.95);
-   glVertex2f(20.5 ,1.95);
-   glEnd();
-
-   glColor3f( 0.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,-3.35);
-   glVertex2f(23.8 ,-3.35);
-   glVertex2f(23.8 ,-3.45);
-   glVertex2f(20.5 ,-3.45);
+   glVertex2f(3 ,-3.35);        //middle house right mirror down side [x axis]
+   glVertex2f(6.3 ,-3.35);
+   glVertex2f(6.3 ,-3.45);
+   glVertex2f(3 ,-3.45);
    glEnd();
 
    //Door
 
+
    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
-   glVertex2f(17.8 ,-15);
-   glVertex2f(21.2 ,-15);
-   glVertex2f(21.2 ,-7);
-   glVertex2f(17.8 ,-7);
+   glVertex2f(-0.6 ,-15);
+   glVertex2f(5,-15);
+   glVertex2f(5 ,-9);
+   glVertex2f(-0.6 ,-9);
+   glEnd();
+   ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-0.5 ,-15);
+   glVertex2f(0.9 ,-15);        //line [y axis]
+   glVertex2f(0.9 ,-9);
+   glVertex2f(-0.5,-9);
+   glEnd();
+   ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(2 ,-15);
+   glVertex2f(2.3 ,-15);        //line [y axis]
+   glVertex2f(2.3 ,-9);
+   glVertex2f(2,-9);
+   glEnd();
+
+      ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f( 3.5,-15);
+   glVertex2f(4.9 ,-15);        //line [y axis]
+   glVertex2f(4.9 ,-9);
+   glVertex2f(3.5,-9);
    glEnd();
 
 	glPopMatrix();
@@ -1433,107 +1731,134 @@ void House5(){
 
 
     glPushMatrix();
-	glTranslatef(30.0f, 0.0f, 0.0f);
+	glTranslatef(45.0f, 0.0f, 0.0f);
 	glRotatef(0, 0.0f, 0.0f, -1.0f);
 
-	glColor3f( 1.2 ,0.2, 1.0);
+	 glColor3f( 0.7 ,1.2, 0.5);  //middle house right side
    glBegin(GL_POLYGON);
-   glVertex2f(14.3 ,-15);
-   glVertex2f(24.3 ,-15);
-   glVertex2f(24.3 ,5);
-   glVertex2f(14.3 ,5);
+   glVertex2f(-3.2 ,-15);
+   glVertex2f(6.8 ,-15);
+   glVertex2f(6.8 ,8);
+   glVertex2f(-3.2 ,8);
    glEnd();
 
-   glColor3f( 1.0 ,1.0, 1.0);
+   glColor3f( 9.9 ,9.5, 0.0);
+   glBegin(GL_POLYGON); // middle house left mirror body
+
+   glVertex2f(-2.7 ,-8);
+   glVertex2f(0.8 ,-8);
+   glVertex2f(0.8 ,6.3);
+   glVertex2f(-2.7 ,6.3);
+   glEnd();
+
+//   glColor3f( 0.0 ,0.0, 0.0);
+//   glBegin(GL_POLYGON); // middle house left mirror middle line[Y axis]
+//   glVertex2f(-1 ,-6);
+//   glVertex2f(-0.90 ,-6);
+//   glVertex2f(-0.90 ,4.3);
+//   glVertex2f(-1 ,4.3);
+//   glEnd();
+
+   glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,-6);
-   glVertex2f(18.3 ,-6);
-   glVertex2f(18.3 ,4.3);
-   glVertex2f(14.8 ,4.3);
+   glVertex2f(-2.7 ,-0.2); //middle house left mirror middle fat line[X axis]
+   glVertex2f(0.8 ,-0.2);
+   glVertex2f(0.8 ,0);
+   glVertex2f(-2.7 ,0);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(16.5 ,-6);
-   glVertex2f(16.6 ,-6);
-   glVertex2f(16.6 ,4.3);
-   glVertex2f(16.5 ,4.3);
-   glEnd();
-
-   glColor3f( 1.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,-0.7);
-   glVertex2f(18.3 ,-0.7);
-   glVertex2f(18.3 ,0);
-   glVertex2f(14.8 ,0);
+   glVertex2f(-2.7 ,-3.35);  //middle house left mirror down middle line[x axis]
+   glVertex2f(0.8 ,-3.35);
+   glVertex2f(0.8 ,-3.45);
+   glVertex2f(-2.7 ,-3.45);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,-3.35);
-   glVertex2f(18.3 ,-3.35);
-   glVertex2f(18.3 ,-3.45);
-   glVertex2f(14.8 ,-3.45);
+   glVertex2f(-2.7 ,2.70);     //middle house left mirror upper middle line[x axis]
+   glVertex2f(0.8 ,2.70);
+   glVertex2f(0.8 ,2.85);
+   glVertex2f(-2.7 ,2.85);
+   glEnd();
+
+
+
+   glColor3f( 1 ,5, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(3 ,-8);
+   glVertex2f(6.3 ,-8);           //middle house right mirror body
+   glVertex2f(6.3 ,6.3);
+   glVertex2f(3 ,6.3);
+   glEnd();
+
+//   glColor3f( 0.0 ,0.0, 0.0);
+//   glBegin(GL_POLYGON);
+//   glVertex2f(4.65 ,-6);
+//   glVertex2f(4.72 ,-6);        //middle house right mirror middle line down side [y axis]
+//   glVertex2f(4.72 ,4.3);
+//   glVertex2f(4.65 ,4.3);
+//   glEnd();
+
+   glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(3 ,-0.2);
+   glVertex2f(6.3 ,-0.2);     // middle house right mirror middle fat line [x axis]
+   glVertex2f(6.3 ,0);
+   glVertex2f(3 ,0);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(14.8 ,1.75);
-   glVertex2f(18.3 ,1.75);
-   glVertex2f(18.3 ,1.95);
-   glVertex2f(14.8 ,1.95);
-   glEnd();
-
-
-
-   glColor3f( 1.0 ,1.0, 1.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,-6);
-   glVertex2f(23.8 ,-6);
-   glVertex2f(23.8 ,4.3);
-   glVertex2f(20.5 ,4.3);
+   glVertex2f(3 ,2.70);
+   glVertex2f(6.3 ,2.70);    // middle house right mirror middle line upper one[x axis]
+   glVertex2f(6.3 ,2.85);
+   glVertex2f(3 ,2.85);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(22.15 ,-6);
-   glVertex2f(22.22 ,-6);
-   glVertex2f(22.22 ,4.3);
-   glVertex2f(22.15 ,4.3);
-   glEnd();
-
-   glColor3f( 1.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,-0.7);
-   glVertex2f(23.8 ,-0.7);
-   glVertex2f(23.8 ,0);
-   glVertex2f(20.5 ,0);
-   glEnd();
-
-   glColor3f( 0.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,1.75);
-   glVertex2f(23.8 ,1.75);
-   glVertex2f(23.8 ,1.85);
-   glVertex2f(20.5 ,1.85);
-   glEnd();
-
-   glColor3f( 0.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(20.5 ,-3.35);
-   glVertex2f(23.8 ,-3.35);
-   glVertex2f(23.8 ,-3.45);
-   glVertex2f(20.5 ,-3.45);
+   glVertex2f(3 ,-3.35);        //middle house right mirror down side [x axis]
+   glVertex2f(6.3 ,-3.35);
+   glVertex2f(6.3 ,-3.45);
+   glVertex2f(3 ,-3.45);
    glEnd();
 
    //Door
 
+
    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
-   glVertex2f(17.8 ,-15);
-   glVertex2f(21.2 ,-15);
-   glVertex2f(21.2 ,-7);
-   glVertex2f(17.8 ,-7);
+   glVertex2f(-0.6 ,-15);
+   glVertex2f(5,-15);
+   glVertex2f(5 ,-9);
+   glVertex2f(-0.6 ,-9);
+   glEnd();
+   ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(-0.5 ,-15);
+   glVertex2f(0.9 ,-15);        //line [y axis]
+   glVertex2f(0.9 ,-9);
+   glVertex2f(-0.5,-9);
+   glEnd();
+   ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f(2 ,-15);
+   glVertex2f(2.3 ,-15);        //line [y axis]
+   glVertex2f(2.3 ,-9);
+   glVertex2f(2,-9);
+   glEnd();
+
+      ////
+      glColor3f( 0.0 ,0.0, 0.0);
+   glBegin(GL_POLYGON);
+   glVertex2f( 3.5,-15);
+   glVertex2f(4.9 ,-15);        //line [y axis]
+   glVertex2f(4.9 ,-9);
+   glVertex2f(3.5,-9);
    glEnd();
 
 	glPopMatrix();
@@ -1543,42 +1868,45 @@ void House6(){
 
 //House6
 
-   glColor3f( 0.2 ,5.2, 1.0);
+   glColor3f( 0.2 ,0.2, 0.0);
    glBegin(GL_POLYGON);
    glVertex2f(-3.2 ,-15);
    glVertex2f(6.8 ,-15);
    glVertex2f(6.8 ,5);
+   glVertex2f(2.1 ,5);
+   glVertex2f(2.1 ,7);
+   glVertex2f(-3.2 ,7);
    glVertex2f(-3.2 ,5);
    glEnd();
 
    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
-   glVertex2f(-2.7 ,-6);
-   glVertex2f(0.8 ,-6);
-   glVertex2f(0.8 ,4.3);
-   glVertex2f(-2.7 ,4.3);
+   glVertex2f(-2.7 ,-8);
+   glVertex2f(0.8 ,-8);            //left mirror body
+   glVertex2f(0.8 ,6.3);
+   glVertex2f(-2.7 ,6.3);
    glEnd();
+
+//   glColor3f( 0.0 ,0.0, 0.0);
+//   glBegin(GL_POLYGON);
+//   glVertex2f(-1 ,-6);                    // left y axis
+//   glVertex2f(-0.9 ,-6);
+//   glVertex2f(-0.9 ,4.3);
+//   glVertex2f(-1 ,4.3);
+//   glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(-1 ,-6);
-   glVertex2f(-0.9 ,-6);
-   glVertex2f(-0.9 ,4.3);
-   glVertex2f(-1 ,4.3);
-   glEnd();
-
-   glColor3f( 1.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(-2.7 ,-0.7);
+   glVertex2f(-2.7 ,-0.7);            //left x axis middle line
    glVertex2f(0.8 ,-0.7);
-   glVertex2f(0.8 ,0);
-   glVertex2f(-2.7 ,0);
+   glVertex2f(0.8 ,-0.55);
+   glVertex2f(-2.7 ,-0.55);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
    glVertex2f(-2.7 ,-3.35);
-   glVertex2f(0.8 ,-3.35);
+   glVertex2f(0.8 ,-3.35);         // left down x axis
    glVertex2f(0.8 ,-3.45);
    glVertex2f(-2.7 ,-3.45);
    glEnd();
@@ -1586,7 +1914,7 @@ void House6(){
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
    glVertex2f(-2.7 ,1.75);
-   glVertex2f(0.8 ,1.75);
+   glVertex2f(0.8 ,1.75);       //left up x axis
    glVertex2f(0.8 ,1.95);
    glVertex2f(-2.7 ,1.95);
    glEnd();
@@ -1595,31 +1923,31 @@ void House6(){
 
    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
-   glVertex2f(3 ,-6);
-   glVertex2f(6.3 ,-6);
+   glVertex2f(3 ,-8);                 //right mirror body
+   glVertex2f(6.3 ,-8);
    glVertex2f(6.3 ,4.3);
    glVertex2f(3 ,4.3);
    glEnd();
+//
+//   glColor3f( 0.0 ,0.0, 0.0);
+//   glBegin(GL_POLYGON);
+//   glVertex2f(4.65 ,-6);                //right y axis
+//   glVertex2f(4.72 ,-6);
+//   glVertex2f(4.72 ,4.3);
+//   glVertex2f(4.65 ,4.3);
+//   glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(4.65 ,-6);
-   glVertex2f(4.72 ,-6);
-   glVertex2f(4.72 ,4.3);
-   glVertex2f(4.65 ,4.3);
-   glEnd();
-
-   glColor3f( 1.0 ,0.0, 0.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(3 ,-0.7);
+   glVertex2f(3 ,-0.7);                   //right fat one
    glVertex2f(6.3 ,-0.7);
-   glVertex2f(6.3 ,0);
-   glVertex2f(3 ,0);
+   glVertex2f(6.3 ,-0.6);
+   glVertex2f(3 ,-0.6);
    glEnd();
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(3 ,1.75);
+   glVertex2f(3 ,1.75);                  //right up x axis
    glVertex2f(6.3 ,1.75);
    glVertex2f(6.3 ,1.95);
    glVertex2f(3 ,1.95);
@@ -1627,7 +1955,7 @@ void House6(){
 
    glColor3f( 0.0 ,0.0, 0.0);
    glBegin(GL_POLYGON);
-   glVertex2f(3 ,-3.35);
+   glVertex2f(3 ,-3.35);                 //right down x axis
    glVertex2f(6.3 ,-3.35);
    glVertex2f(6.3 ,-3.45);
    glVertex2f(3 ,-3.45);
@@ -1639,8 +1967,8 @@ void House6(){
    glBegin(GL_POLYGON);
    glVertex2f(0.3 ,-15);
    glVertex2f(3.7 ,-15);
-   glVertex2f(3.7 ,-7);
-   glVertex2f(0.3 ,-7);
+   glVertex2f(3.7 ,-10);
+   glVertex2f(0.3 ,-10);
    glEnd();
 
 }
@@ -1753,6 +2081,103 @@ void House7(){
 }
 
 
+void bench(){
+
+//Bench
+glBegin(GL_POLYGON);
+
+//glColor3f(0.647f, 0.165f, 0.165f);
+ glColor3f(0.502f, 0.502f, 0.502f);
+
+//body
+glVertex2f(-11.5,-13.5);
+glVertex2f(-4 ,-13.5);
+glVertex2f(-4 ,-12.8);
+glVertex2f(-11.5 ,-12.8);
+
+glEnd();
+
+
+glLineWidth(5.5);
+
+//Bench 1st left leg
+glBegin(GL_LINES);
+
+glColor3f(0.647f, 0.165f, 0.165f);
+
+ glVertex2f(-10.4 ,-15);
+
+glVertex2f(-10,-13.5);
+
+glEnd();
+
+
+
+//Bench 2nd leg
+glBegin(GL_LINES);
+
+
+glColor3f(0.647f, 0.165f, 0.165f);
+
+glVertex2f(-5,-15);
+
+glVertex2f(-5.4, -13.5);
+
+glEnd();
+
+////second one
+
+
+
+glPushMatrix();
+	glTranslatef(-17.0f, 0.0f, 0.0f);
+	glRotatef(0, 0.0f, 0.0f, -1.0f);
+glBegin(GL_POLYGON);
+
+//glColor3f(0.647f, 0.165f, 0.165f);
+ glColor3f(0.502f, 0.502f, 0.502f);
+
+//body
+glVertex2f(-10.5,-13.5);
+glVertex2f(-4.8,-13.5);
+glVertex2f(-4.8,-12.8);
+glVertex2f(-10 ,-12.8);
+
+glEnd();
+
+
+glLineWidth(5.5);
+
+//Bench 1st left leg
+glBegin(GL_LINES);
+
+ glColor3f(0.502f, 0.502f, 0.502f);
+
+ glVertex2f(-10.4 ,-15);
+
+glVertex2f(-10,-13.5);
+
+glEnd();
+
+
+
+//Bench 2nd leg
+glBegin(GL_LINES);
+
+
+ glColor3f(0.502f, 0.502f, 0.502f);
+
+glVertex2f(-5,-15);
+
+glVertex2f(-5.4, -13.5);
+
+glEnd();
+
+glPopMatrix();
+glFlush();
+}
+
+
 void Road1(){
 
 //Road1
@@ -1862,7 +2287,8 @@ void Day()
     //Front Wall
     Front_Wall();
 
-
+     lamp();
+     bench();
     //Road2
     Road2();
 
@@ -2113,6 +2539,8 @@ glClear(GL_COLOR_BUFFER_BIT);
 
     //Tree3
 	Tree3();
+	lamp();
+	bench();
 
     //House6
     House6();
@@ -2154,6 +2582,15 @@ glClear(GL_COLOR_BUFFER_BIT);
        glPushMatrix();
        glTranslatef(car_run+i,0,0);
        car();
+       glPopMatrix();
+   }
+
+    boat_Move();
+   for(int i=0; i<1; i++)
+   {
+       glPushMatrix();
+       glTranslatef(boat_move+i,0,0);
+       boat2();
        glPopMatrix();
    }
 
