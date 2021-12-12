@@ -56,7 +56,7 @@ void circle(GLfloat rx,GLfloat ry,GLfloat cx,GLfloat cy)//radius_x,radius_y,cert
     void car()
     {
         glPushMatrix();
-    glColor3f(0.5, 0.0, 0.0);
+    glColor3f(0.2, 0.2, 0.0);
 
     glTranslatef(tx,ty,0);
     glBegin(GL_QUADS);
@@ -100,7 +100,7 @@ void circle(GLfloat rx,GLfloat ry,GLfloat cx,GLfloat cy)//radius_x,radius_y,cert
 
 void car2()
     {glPushMatrix();
-    glColor3f(1.0, 1.0, 0.0);
+    glColor3f(1.0, 0.0, 0.0);
 
     glTranslatef(tx,ty,0);
     glBegin(GL_QUADS);
@@ -142,7 +142,7 @@ void car2()
 void car3(){
 
         glPushMatrix();
-    glColor3f(0.0, 0.5, 0.0);
+    glColor3f(1.0, 0.5, 0.0);
 
     glTranslatef(50,ty,0);
     glBegin(GL_QUADS);
@@ -184,7 +184,7 @@ void car3(){
 
 void boat(){
     //Boat1
-    glColor3f( 0.0 ,0.0, 0.0);
+    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
    glVertex2f(-5 ,-30);
    glVertex2f(10 ,-30);
@@ -192,7 +192,7 @@ void boat(){
    glVertex2f(-5 ,-25);
    glEnd();
 
-   glColor3f( 0.0 ,0.0, 1.0);
+   glColor3f( 1.0 ,1.1, 1.0);
    glBegin(GL_POLYGON);
    glVertex2f(-3 ,-25);
    glVertex2f(11 ,-25);
@@ -262,7 +262,7 @@ void boat2(){
    glVertex2f(-5 ,-25);
    glEnd();
 
-   glColor3f( 0.0 ,0.0, 1.0);
+   glColor3f( 0.0 ,0.2, 0.0);
    glBegin(GL_POLYGON);
    glVertex2f(-3 ,-25);
    glVertex2f(11 ,-25);
@@ -324,7 +324,7 @@ void boat2(){
 void boat3(){
     //Boat2
     glTranslated(70,5,0);
-    glColor3f( 0.0 ,0.0, 0.0);
+    glColor3f( 1.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
    glVertex2f(-5 ,-30);
    glVertex2f(10 ,-30);
@@ -332,7 +332,7 @@ void boat3(){
    glVertex2f(-5 ,-25);
    glEnd();
 
-   glColor3f( 0.0 ,0.0, 1.0);
+   glColor3f( 0.0 ,1.0, 1.0);
    glBegin(GL_POLYGON);
    glVertex2f(-3 ,-25);
    glVertex2f(11 ,-25);
@@ -340,13 +340,13 @@ void boat3(){
    glVertex2f(-3 ,-22);
    glEnd();
 
-   glColor3f( 0.0 ,1.0, 1.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(-1.5 ,-24.5);
-   glVertex2f(0.5 ,-24.5);
-   glVertex2f(0.5 ,-22.5);
-   glVertex2f(-1.5 ,-22.5);
-   glEnd();
+//   glColor3f( 0.0 ,1.0, 1.0);
+//   glBegin(GL_POLYGON);
+//   glVertex2f(-1.5 ,-24.5);
+//   glVertex2f(0.5 ,-24.5);
+//   glVertex2f(0.5 ,-22.5);
+//   glVertex2f(-1.5 ,-22.5);
+//   glEnd();
 
    glColor3f( 1.0 ,1.0, 0.0);
    glBegin(GL_POLYGON);
@@ -355,16 +355,16 @@ void boat3(){
    glVertex2f(4.5 ,-22.5);
    glVertex2f(2.5 ,-22.5);
    glEnd();
+//
+//   glColor3f( 0.0 ,1.0, 1.0);
+//   glBegin(GL_POLYGON);
+//   glVertex2f(6.5 ,-24.5);
+//   glVertex2f(8.5 ,-24.5);
+//   glVertex2f(8.5 ,-22.5);
+//   glVertex2f(6.5 ,-22.5);
+//   glEnd();
 
-   glColor3f( 0.0 ,1.0, 1.0);
-   glBegin(GL_POLYGON);
-   glVertex2f(6.5 ,-24.5);
-   glVertex2f(8.5 ,-24.5);
-   glVertex2f(8.5 ,-22.5);
-   glVertex2f(6.5 ,-22.5);
-   glEnd();
-
-   glColor3f( 0.0 ,1.0, 0.0);
+   glColor3f( 0.2 ,0.2, 0.0);
    glBegin(GL_POLYGON);
    glVertex2f(-1.5 ,-22);
    glVertex2f(7.5 ,-22);
@@ -580,7 +580,7 @@ glPopMatrix();
 
 void plane()
 {
-    glColor3f(1,1,1);
+    glColor3f(0,0.5,1);
     glBegin(GL_POLYGON);
     glVertex2f(21,20);
     glVertex2f(15,19);
@@ -2174,7 +2174,7 @@ glVertex2f(-5.4, -13.5);
 glEnd();
 
 glPopMatrix();
-glFlush();
+
 }
 
 
